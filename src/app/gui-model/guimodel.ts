@@ -200,6 +200,15 @@ export class GuiModel {
                             "required": true
                         },
                         {
+                            "id": "location",
+                            "type": "autocomplete",
+                            "name": "Location",
+                            "url": "/location",
+                            "form": "LocationForm",
+                            "width": 2
+                           },
+                           
+                        {
                             "id": "comments",
                             "type": "text",
                             "name": "Comments",
